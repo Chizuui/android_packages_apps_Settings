@@ -417,4 +417,8 @@
     <string name="software_update_up_to_date_header">Your Pixel is up to date</string>
     <string name="software_update_up_to_specific_date_summary">Updated to %1$s</string>
     <string name="system_update_entry_title">System update</string>
+
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
 </resources>
