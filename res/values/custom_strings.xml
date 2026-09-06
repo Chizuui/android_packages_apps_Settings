@@ -420,6 +420,7 @@
 
     <!-- Pixel Maintainer -->
     <string name="custom_maintainer">Maintainer</string>
+    <string name="custom_maintainer_purpose">Shows the device maintainer for this PixelOS build</string>
 
     <!-- Force LTE_CA -->
     <string name="force_lte_ca_title">LTE carrier aggregation</string>
