@@ -15590,4 +15590,6 @@
     <!-- Search keywords for Human interface device access setting -->
     <string name="keywords_access_hid">hid, human, access, device</string>
     <!-- Access HID end -->
+    <string name="background_blur_title">Background blur</string>
+    <string name="background_blur_summary">Enable blur effects on supported system surfaces</string>
 </resources>
