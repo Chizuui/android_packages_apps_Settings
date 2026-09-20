@@ -3,6 +3,7 @@ package com.android.settings.display;
 import android.content.Context;
 import android.provider.Settings;
 
+import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
 
 public class BackgroundBlurPreferenceController extends TogglePreferenceController {
@@ -20,23 +21,22 @@ public class BackgroundBlurPreferenceController extends TogglePreferenceControll
 
     @Override
     public boolean isChecked() {
-        // 0 = blur enabled
-        // 1 = blur disabled
         return Settings.Global.getInt(
                 mContext.getContentResolver(),
                 DISABLE_WINDOW_BLURS,
-                0
-        ) == 0;
+                0) == 0;
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        // Switch ON  -> blur enabled  -> 0
-        // Switch OFF -> blur disabled -> 1
         return Settings.Global.putInt(
                 mContext.getContentResolver(),
                 DISABLE_WINDOW_BLURS,
-                isChecked ? 0 : 1
-        );
+                isChecked ? 0 : 1);
+    }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return R.string.menu_key_display;
     }
 }
