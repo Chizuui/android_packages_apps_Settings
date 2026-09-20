@@ -430,4 +430,9 @@
     <string name="dual_shade_title">Separate Quick Settings</string>
     <string name="dual_shade_summary">Separate notifications and Quick Settings into two panels</string>
 
+
+    <!-- Background blur -->
+    <string name="background_blur_title">Background blur</string>
+    <string name="background_blur_summary">Enable blur effects on supported system surfaces</string>
+
 </resources>

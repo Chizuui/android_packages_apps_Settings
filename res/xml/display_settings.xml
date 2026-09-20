@@ -254,6 +254,14 @@
             android:summary="@string/dual_shade_summary"
             android:defaultValue="true" />
 
+        <!-- Background blur -->
+        <androidx.preference.SwitchPreferenceCompat
+            android:key="background_blur"
+            android:title="@string/background_blur_title"
+            android:summary="@string/background_blur_summary"
+            android:defaultValue="true"
+            settings:controller="com.android.settings.display.BackgroundBlurPreferenceController" />
+
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="high_touch_polling_rate_enable"
             android:title="@string/high_touch_polling_rate_title"
