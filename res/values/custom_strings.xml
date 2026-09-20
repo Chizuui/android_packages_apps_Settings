@@ -425,4 +425,9 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca_title">LTE carrier aggregation</string>
     <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
+
+    <!-- Dual Shade -->
+    <string name="dual_shade_title">Separate Quick Settings</string>
+    <string name="dual_shade_summary">Separate notifications and Quick Settings into two panels</string>
+
 </resources>
