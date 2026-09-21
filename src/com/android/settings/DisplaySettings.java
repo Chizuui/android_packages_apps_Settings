@@ -25,6 +25,7 @@ import androidx.annotation.Nullable;
 import androidx.preference.PreferenceFragmentCompat;
 
 import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.display.BackgroundBlurPreferenceController;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
 import com.android.settings.display.DisplayScreen;
@@ -96,6 +97,8 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
+        controllers.add(
+                new BackgroundBlurPreferenceController(context, "background_blur"));
 
         if (DesktopSettingsUtils.shouldShowTopLevelDeviceCategory(context)) {
             controllers.add(new ExternalDisplayPreferenceController(context, lifecycle));
