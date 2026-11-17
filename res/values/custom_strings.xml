@@ -492,4 +492,17 @@
     <string name="spoof_show_system">Show system apps</string>
     <string name="spoof_filter">Filter</string>
     <string name="spoof_no_apps">No matching apps</string>
+    <!-- Pixel Maintainer -->
+    <string name="custom_maintainer">Maintainer</string>
+    <string name="custom_maintainer_purpose">Shows the device maintainer for this PixelOS build</string>
+
+    <!-- Dual Shade -->
+    <string name="dual_shade_title">Separate Quick Settings</string>
+    <string name="dual_shade_summary">Separate notifications and Quick Settings into two panels</string>
+
+    <!-- Backup restore (AppDataBackup) -->
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
+    <string name="local_app_backup_restore_title">Local app backup and restore</string>
+    <string name="local_app_backup_restore_summary">Save APKs and app data as normal tar archives in internal storage</string>
 </resources>

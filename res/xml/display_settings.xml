@@ -247,6 +247,21 @@
             android:summary="@string/status_bar_double_tap_to_sleep_summary"
             android:defaultValue="false" />
 
+        <!-- Dual Shade -->
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="dual_shade"
+            android:title="@string/dual_shade_title"
+            android:summary="@string/dual_shade_summary"
+            android:defaultValue="true" />
+
+        <!-- Background blur -->
+    <androidx.preference.SwitchPreferenceCompat
+        android:key="background_blur"
+        android:title="@string/background_blur_title"
+        android:summary="@string/background_blur_summary"
+        android:defaultValue="true"
+        settings:controller="com.android.settings.display.BackgroundBlurPreferenceController" />
+
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="high_touch_polling_rate_enable"
             android:title="@string/high_touch_polling_rate_title"
